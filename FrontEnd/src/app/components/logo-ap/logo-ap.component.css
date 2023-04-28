@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.redes{
+    margin-right: 0.5em;
+}
+#logo-ap{
+    width: 130px;
+}
+img{
+    width: 30px;
+}
+.btn{
+    border-width: medium;
+}
+
+
+/*... Para la vista de celular ...*/
+@media (max-widh: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes leg{
+        margin: 0.2em;
+    }
+}
